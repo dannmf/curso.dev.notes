@@ -119,9 +119,46 @@ Porém, mesmo não subindo ao repositório, esses arquivos são de extrema impor
 
 Nesse arquivo podemos colocar o nome ou caminho de pastas e arquivos, que queremos manter no nosso ambiente local, mas não subir ele para o repositório git.
 
-Sabendo que não
+---
+
+## Comandos git
+
+git init: inicializa um repositório git local
+git status: mostra o status dos arquivos no repositório
+git add: adiciona arquivos ao repositório
+git commit: cria um commit com as alterações
+git push: envia os commits para o repositório remoto
+git pull: baixa os commits do repositório remoto
+git commit --amend: cria um novo commit com as alterações do último commit
 
 ---
+
+## Newline e Git
+
+O Problema: Diferenças entre Sistemas
+Quando você trabalha em equipe com pessoas usando Windows, Linux e Mac, cada um pode salvar arquivos com newlines diferentes. Isso causa commits falsos onde o Git detecta que "o arquivo inteiro mudou", quando na verdade só mudaram os caracteres de fim de linha.
+
+---
+
+## Main
+
+A main é a linha do tempo principal do projeto, onde todas as alterações concretas irão ficar
+
+## Branches
+
+Branches é uma espécie de linha do tempo alternativa, onde podemos criar uma cópia do projeto para fazer alterações sem afetar o projeto principal (MAIN).
+
+## local/main
+
+Essa é a representação da main, na sua máquina local
+
+## origin/main
+
+Essa é a main de ORIGEM, que fica armazenada remotamente no GitHub
+
+## git push
+
+Quando realizamos todos commits/alterações precisamos atualizar a origin/main, para isso EMPURRAMOS todas as alterações, utilizando o comando **git push**
 
 Obs Gerais:
 
