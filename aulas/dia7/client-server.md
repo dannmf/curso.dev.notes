@@ -20,7 +20,11 @@ Depois surgiram os servidores, onde tinhamos que passar nossos arquivos a ele vi
 
 E como estava dando muito trabalho passar os arquivos da máquina para o servidor, resolveram então editar diretamente no servidor EM AMBIENTE DE PRODUÇÃO :D (que ótima idéia) eles se conectavam via Windows Server ou SSH para editar diretamente no servidor.
 
-Agora é possível utilizar servidores externos, que possuem tratamento para todas essas possibilidades de queda de energia, internet e são mais potentes para aguentar diferentes acessos simultâneos
+Com a vinda do GIT, isso ficou naturalmente mais simples e descentralizado, pois agora é possível utilizar o GIT também no servidor, aonde basta acessar o servidor e puxar as alterações de origem utilizando o git pull.
+
+Mas ainda sim, mexer diretamente no servidor pode não ser uma boa idéia e para resolver isso, agora no processo de deploy é utilizado várias máquinas até o servidor de produção
+
+Então antes de chegar no servidor de produção o projeto passara por um servidor C.I (Continuous Integration) que irá realizar diversos testes para que checar se tudo está funcionando, após isso passará por um servidor de build/CD (Continuous Deployment), que vai pegar o código fonte, otimizar e construir o projeto final e por fim irá para o servidor de produção que vai estar exposto na internet.
 
 ### Continuous Deployment
 

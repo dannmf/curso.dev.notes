@@ -160,6 +160,12 @@ Essa é a main de ORIGEM, que fica armazenada remotamente no GitHub
 
 Quando realizamos todos commits/alterações precisamos atualizar a origin/main, para isso EMPURRAMOS todas as alterações, utilizando o comando **git push**
 
+Dessa forma garantimos que as alterações estão salvas, e caso você formate a sua máquina, consegue recuperar todo conteúdo que vai estar no github.
+
+## git pull
+
+Para puxar as alterações que estão no origin/main utilizamos o comando git pull
+
 Obs Gerais:
 
 Logs -> Registros
