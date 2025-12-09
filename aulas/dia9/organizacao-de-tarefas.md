@@ -1,6 +1,6 @@
 # Organização de Tarefas
 
-Falando um pouco sobre organização de tarefas, é importante ter em mente que o principal objetivo é **trabalhar pouco e ganhar muito**, ou seja, ser eficiente e objetivo, fragmentar as tarefas.
+Falando um pouco sobre organização de tarefas, é importante ter em mente que o principal objetivo é **trabalhar pouco e ganhar muito**, ou seja, ser eficiente e objetivo, fragmentar as tarefas pode nos ajudar a alcançar este objetivo.
 
 O oposto disso pode prejudicar um projeto, que é **trabalhar muito e ganhar pouco**, e isso pode acontecer com pessoas que planejam demais! Planejar algo é sempre bom, mas se você **planeja muito em excesso, você executa pouco** e quando **planeja pouco, se executa muito**.
 
@@ -19,11 +19,11 @@ Para conseguir organizar isso podemos separar a organização em níveis para sa
 
 Esse nível é o mais simples e tem como objetivo ter alguma forma que te faça lembrar o que você precisa fazer.
 
-Parece bobo, mas esse nível serve para quando você ja sabe e como precisa ser feito mas se não tiver algo relembrando, você vai fazer outras ao ponto de ficar longe do projeto e acabar perdendo a vontade de continuar no projeto.
+Parece bobo, mas esse nível serve para quando você já sabe o que fazer e como precisa ser feito mas se não tiver algo relembrando, você vai fazer outras coisas ao ponto de ficar longe do projeto e acabar perdendo a vontade de continuar no projeto.
 
 A sugestão para fazer isso é ter o **menor custo de produção e menor tempo de aquecimento** possível.
 
-Custo de Produção: Quanto custa de energia você precisa para registra o que precisa ser feito
+Custo de Produção: Quanto de energia você precisa para registrar o que precisa ser feito
 
 Tempo de Aquecimento: Quanto tempo demora para você ver/conferir o que precisa ser feito.
 
@@ -32,6 +32,8 @@ Exemplo: anotar as tarefas em um papel na forma mais simples possível, com apen
 ### Nível 2: Ser Lembrado em Grupo
 
 Esse nível é parecido com o nível 1 porém envolve mais pessoas, o que acaba diminuindo o **Tempo de Aquecimento**
+
+Por exemplo, ao invés de usar um checklist individual, colocar esse checklist em um quadro na geladeira ou parede, aonde mais pessoas possam checar essas tarefas e entender o que está acontecendo, dessa forma diminuindo o tempo de aqueciment, que é o tempo necessário para conferir o que precisa ser feito.
 
 ### Nível 3: Expandir Conhecimento
 
@@ -43,15 +45,15 @@ Mas cuidado, pois aqui no nível 3, o **Tempo de Aquecimento** é maior, pois vo
 
 Esse nível gera muitas polêmicas, que é onde nós mensuramos a produtivadade das pessoas que trabalham nas tarefas.
 
-Os desenvolvedores normalmente odeiam essa etapa, pois ela aumenta a carga de trabalha, o que causa a impressão do saldo negativo, já que é necessário arrastar cards, seguir padrões, fazer reuniões, tudo isso para organizar a tarefa.
+Os desenvolvedores normalmente odeiam essa etapa, pois ela aumenta a carga de trabalho, o que causa a impressão do saldo negativo, já que é necessário arrastar cards, seguir padrões, fazer reuniões, tudo isso para organizar a tarefa.
 
-Além disso muitos gestores mensuram as tarefas levando em conta apenas quantas barreiras técnicas um desenvolvedor está pulando ou quantas barreiras de negócio um produto ou serviço está pulando.
+Além disso, muitos gestores avaliam o trabalho olhando apenas para quantas dificuldades técnicas o desenvolvedor superou ou quantos obstáculos de negócio o produto ultrapassou.
 
-Quando um gestor se perde e começa a usar mensuração como um fim e não como um meio, é bom tomar cuidado, pois isso causa um incentivo desalinhado e isso causa problemas.
+O problema é que, quando o gestor se perde e passa a tratar a mensuração como o objetivo final, em vez de tratá-la como uma ferramenta para ajudar a melhorar, surgem incentivos distorcidos — e isso geralmente acaba gerando problemas.
 
 Uma boa forma de gerar métricas é utilizar o Jira, que é um software bem completo e com diversos plugins para fazer esse tipo de trabalho.
 
-Porém achei bem interessante algo que foi citado pelo Filipe que foi uma forma de mostrar isso para gestores que não são do meio de tecnologia, que é fazer uma tabela simples que é progressiva.
+Achei bem interessante algo que foi citado pelo Filipe que foi uma forma de mostrar isso para gestores que não são do meio de tecnologia, que é fazer uma tabela simples que é progressiva.
 
 Exemplo:
 | | Semana 1 | Semana 2 | Semana 3 |
